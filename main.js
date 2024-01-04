@@ -1,6 +1,6 @@
 let T;
 let func = setInterval(function () {
-    let t1 = new Date("Dec 18,2023 23:59:59");
+    let t1 = new Date("Jan 4,2024 23:59:59");
     let t2 = new Date();
      T = t1 - t2;
     document.querySelector("#day").innerHTML = (`0${Math.floor(T / (1000 * 60 * 60 * 24))}`);
