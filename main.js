@@ -13,6 +13,6 @@ let func = setInterval(function () {
 }, 1000);
 if(T<0)
 {
-    clearTimeout(func);
+    clearInterval(func);
 }
 
