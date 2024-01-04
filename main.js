@@ -11,5 +11,8 @@ let func = setInterval(function () {
     let z = y % (1000 * 60);
     document.querySelector("#second").innerHTML = (`${Math.floor(z / 1000)}`);
 }, 1000);
-
+if(T<0)
+{
+    clearTimeout(func);
+}
 
