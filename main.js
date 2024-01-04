@@ -10,9 +10,10 @@ let func = setInterval(function () {
     document.querySelector("#minuit").innerHTML = (`${Math.floor(y / (1000 * 60))}`);
     let z = y % (1000 * 60);
     document.querySelector("#second").innerHTML = (`${Math.floor(z / 1000)}`);
-}, 1000);
-if(T<0)
+    if(T<0)
 {
     clearInterval(func);
 }
+}, 1000);
+
 
